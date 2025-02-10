@@ -1,6 +1,6 @@
 # Release Date Cleaning Function
 ## Background
-The release dates Luminate provides for songs are typically accurate ~50% of the time. These errors can be caused by several different factors. For example, if a music video releases before the official audio, Luminate will log the MV release date as the song's release date. In other scenarios, release dates might be off by 1 day because of how they ingest metadata internally. Regardless, in order to obtain accurate first week numbers, we need to identify the most likely release date.
+The release dates Luminate provides for songs are typically accurate [~50% of the time](https://raw.githubusercontent.com/sme-popp002/release_date_final/main/combined_plot.png). These errors can be caused by several different factors. For example, if a music video releases before the official audio, Luminate will log the MV release date as the song's release date. In other scenarios, release dates might be off by 1 day because of how they ingest metadata internally. Regardless, in order to obtain accurate first week numbers, we need to identify the most likely release date.
 ## Goal: Identify most likely release date for each song
 **Required Columns**: song_id, date, streams
 
